@@ -1,0 +1,835 @@
+.mybutton{
+    width:200px;
+}
+
+.user {
+    margin: 30px;
+    padding: 20px;
+    background-color: #eee;
+    border-radius: 10px;
+}
+
+.padding-class {
+    padding-bottom: 50px;
+}
+
+.mydate {
+    color: #919191;
+    font-style: italic;
+    font-size: 14px;
+    background-color: #dddddd;
+    font-weight: 600;
+    padding: 2px;
+    margin-bottom: 0px;
+}
+
+.mydescription {
+    color: #5a5a5a;
+    font-style: oblique;
+    font-size: 14px;
+    background-color: #eeeeee;
+    padding:2px;
+    font-weight: 400;
+    margin-top:0px;
+}
+
+.error,
+.success {
+    text-align: center;
+}
+
+.error {
+    border: 1px solid red;
+    background-color: #f9b5af;
+    color: red;
+}
+
+.error ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.success {
+    border: 1px solid green;
+    background-color: #d1f9da;
+    color: green;
+}
+
+.my1 {
+    background-color: #f0ad4e;
+    padding-left: 5px;
+}
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -142px;
+}
+
+.push {
+    height: 142px;
+}
+
+.profileimage {
+    width: 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.adimage {
+    width: 150px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.adimage:hover {
+    width: 200px;
+}
+
+.profileimagediv {
+
+}
+
+.fa-google-plus{
+    color: #dd4b39;
+}
+.fa-youtube{
+    color:#ff0000;
+}
+.fa-twitter{
+    color:#1da1f2;
+}
+.fa-pinterest{
+    color:#bd081c;
+}
+.fa-linkedin{
+    color:#0077b5;
+}
+.fa-facebook{
+    color:#3b5998;
+}
+
+.robot {
+    display: none;
+}
+
+/* Footer */
+#footer {
+    height: auto;
+    background-color: #222;
+
+}
+
+.row-first {
+    margin-bottom: 10px;
+    margin-top: 8px
+}
+
+.title-footer {
+    margin-top: 32px;
+}
+
+.main-footer {
+    color: #fff;
+    background-color: #aaa;
+    text-align: center;
+}
+
+#wrapper {
+    width: 100%;
+    margin-top: 65px;
+}
+
+#page-wrapper {
+    padding: 15px 15px;
+    min-height: 600px;
+    background: #fdfdfd;
+
+}
+
+#page-inner {
+    width: 100%;
+    margin: 10px 20px 10px 0px;
+    background-color: #fff !important;
+    padding: 10px;
+    min-height: 600px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.user-image-back {
+    background-color: #8B7BFF;
+}
+
+h5, .h5 {
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.postpanel {
+    border-left: 2px solid #eee;
+}
+
+.myimage {
+    width: 70px;
+    height: 70px;
+    display: block;
+}
+
+.userimage {
+    width: 120px;
+    display: block;
+}
+
+.c-color {
+    border-top: 5px dashed #05b523;
+
+}
+
+.e-color {
+
+    border-top: 5px dashed #d5192a;
+}
+
+.s-color {
+    border-top: 1px solid #b51b94;
+}
+
+
+.page-starter {
+    background-color: #276bb2;
+    padding: 10px;
+    margin: 30px 10px;
+    border-radius: 5px;
+    border: 2px solid #276bb2;
+}
+
+.page-starter .lead {
+    color: #fff;
+    font-weight: 900;
+    margin: 0px;
+}
+
+.user-show{
+    padding: 15px;
+    background-color: #fdfdfd;
+    margin: 15px;
+    border-radius: 5px;
+    border: 1px solid #0a64ac;
+    height:200px;
+    width: 100%;
+}
+
+
+.bookable {
+    background-color: #e0df7a;
+    margin: 30px;
+    padding: 15px;
+    border-top: 5px solid #0a64ac;
+    border-radius: 10px;
+    font-weight: 800;
+}
+
+.bookables{
+    visibility: visible;
+}
+
+.signin {
+    background: url('../images/background1.jpeg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -background-size: cover;
+    height: 100vh;
+    margin-top: -22px;
+}
+
+.signup {
+    background: url('../images/background1.jpeg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -background-size: cover;
+    min-height: 1300px;
+    margin-top: -20px;
+}
+
+.signin-fields {
+    background-color: rgba(9, 9, 9, 0.7);
+    min-height: 662px;
+    color: #ddd;
+    padding: 100px 25px;
+    height: 100vh;
+}
+
+.signup-fields {
+    background-color: rgba(9, 9, 9, 0.7);
+    min-height: 1300px;
+    color: #ddd;
+    padding: 100px 25px;
+}
+
+.signin-fields .lead, .signup-fields .lead {
+    font-weight: 900;
+    margin-bottom: 30px;
+
+}
+
+.signin-fields .container-fluid {
+    max-width: 600px;
+}
+
+.signup-fields .container-fluid {
+    max-width: 800px;
+}
+
+.signin-fields .form-control, .signin-fields .btn, .signup-fields .form-control, .signup-fields .btn {
+    margin-bottom: 30px;
+}
+
+.signin-fields .btn, .signup-fields .btn {
+    border-radius: 5px;
+}
+
+.signup-fields .form-control {
+    margin-bottom: 0px;
+}
+
+.toggle-class, .post-toggle-class {
+    display: none;
+}
+
+.toggle-button, .post-toggle-button {
+    cursor: pointer;
+}
+
+.overlay {
+    background-color: rgb(7, 43, 129);
+    color: #fff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+}
+
+.overlay .h1 {
+    font-weight: bold;
+    margin: 100px auto;
+}
+
+#scroll-to-top {
+    text-align: center;
+    background-color: #d6d6d6;
+    width: 35px;
+    height: 35px;
+    color: #11d6fe;
+    position: fixed;
+    right: 30px;
+    bottom: 20px;
+    z-index: 9998;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+}
+
+#scroll-to-top:hover, #scroll-to-top:active {
+    background-color: #c9c9c9;
+    color: #0fbcdf;
+}
+
+.offer{
+    background-color: #f9f888;
+    padding:10px;
+    margin:10px;
+}
+
+/*==============================================
+   MENU STYLES
+   =============================================*/
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    color: #ddd;
+}
+
+.arrow {
+    float: right;
+}
+
+.fa.arrow:before {
+    content: "\f104";
+}
+
+.active > a > .fa.arrow:before {
+    content: "\f107";
+}
+
+.nav-second-level li,
+.nav-third-level li {
+    border-bottom: none !important;
+}
+
+.nav-second-level li a {
+    padding-left: 37px;
+}
+
+.nav-third-level li a {
+    padding-left: 55px;
+}
+
+.sidebar-collapse, .sidebar-collapse .nav {
+    background: none;
+}
+
+.sidebar-collapse .nav {
+    padding: 0;
+}
+
+.sidebar-collapse .nav > li > div {
+    background: #5a5a5a;
+    text-shadow: none;
+    color: #dddddd;
+    font-weight: 900;
+    font-size: 11px;
+}
+
+.sidebar-collapse > .nav > li > div {
+    padding: 15px 10px;
+}
+
+.sidebar-collapse > .nav > li {
+    border-bottom: 1px solid #144 !important;
+}
+
+.sidebar-collapse .nav > li > div:hover,
+.sidebar-collapse .nav > li > div:focus {
+
+    background: #696969;
+    outline: 0;
+}
+
+.nav-second-level > li:last-child > a:after,
+.nav-third-level > li:last-child > a:after {
+    height: 50%;
+}
+
+.nav-third-level > li > a:after,
+.nav-third-level > li > a:before {
+    left: 40px;
+}
+
+.navbar-side {
+    border: none;
+    background-color: #202020;
+
+}
+
+
+
+.navbar-default {
+    border: 0px solid #DDDDDD;
+
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #B40101;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #fff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
+
+.nav > li > a > i {
+    margin-right: 10px;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+    color: #ddd;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #8B7BFF;
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+    background-color: #8B7BFF;
+}
+
+.adjust-nav {
+    padding-left: 20px;
+    padding-right: 70px;
+}
+
+.navbar >
+.navbar-toggle {
+    background-color: #8B7BFF;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover,
+.sidebar-collapse .nav > li > a:hover, .sidebar-collapse .nav > li > a:focus {
+    background-color: #276bb2;
+    color: #fff;
+}
+
+.navbar-nav > li > a, .navbar-brand, .navbar-nav > li > div > form {
+    line-height: 47px;
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-brand {
+    color: white;
+}
+.navbar-nav > li > form {
+    color: white;
+    padding-top: 10px;
+}
+
+.navbar-nav > li > form > div > div > button {
+    margin-bottom: 20px;
+}
+
+#livesearch {
+    position: absolute;
+    margin-top: 37px;
+    width: 100%;
+    border-radius: 5px;
+    z-index: 999;
+
+}
+
+.dropdown-menu {
+    padding: 0px;
+}
+
+.dropdown-menu > li {
+    font-size: 12px;
+    padding: 5px;
+}
+
+.dropdown-menu .divider {
+    padding: 0px;
+    margin: 0px;
+}
+
+.dropdown-menu > li:hover, .dropdown-menu > li:focus {
+    color: #276bb2;
+    font-size: 14px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    color: #276bb2;
+    border-radius: 2px;
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    margin-right: 15px;
+    padding: 9px 9px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    border: none;
+    border-radius: 4px;
+}
+
+.sidebar-collapse .nav > li > a {
+    background: rgb(70, 70, 70);
+    color: #ffffff;
+}
+
+.sidebar-collapse .nav > li > a {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#wrapper {
+    background-color: rgb(50, 50, 50);
+}
+
+.dropdown-menu > li {
+    -webkit-transition: padding 0.3s ease;
+    -moz-transition: padding 0.3s ease;
+    -o-transition: padding 0.3s ease;
+    transition: padding 0.3s ease;
+}
+
+
+.dropdown-menu {
+    width: 300px;
+}
+
+
+
+.white-a, .white-a:hover {
+    color: white;
+}
+
+/*==============================================
+   DASHBOARD STYLES
+   =============================================*/
+
+.bg-color-blue {
+    background-color: #9A86EB;
+    color: #fff;
+}
+
+.no-boder {
+    border: 1px solid #f3f3f3;
+}
+
+.back-footer-blue {
+    background-color: #7479E6;
+    border-top: 0px solid #fff;
+}
+
+.nav-tabs > li > a {
+    -webkit-border-radius: 0px 0px 0px 0px;
+    -moz-border-radius: 0px 0px 0px 0px;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.panel-group .panel {
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+}
+
+.panel {
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+}
+
+.panel-heading {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.search .form-control {
+    border-radius: 0px;
+}
+
+.search .btn {
+    border-radius: 0px;
+}
+
+.search .col-sm-4 {
+    padding: 0px;
+}
+
+.search .col-sm-8 {
+    padding: 0px;
+}
+
+.search {
+    margin: 0px 10px 20px 10px;
+}
+
+.brand-image {
+    position: fixed;
+    margin-top: -40px;
+    margin-left: 20px;
+    top: 0px;
+    left: 0px;
+}
+
+.signin-logo {
+
+}
+
+.personal{
+    background-color: #2ab27b;
+    font-weight: 800;
+    font-size: medium;
+    color: #f9f9f9;
+    padding:10px;
+    border-radius: 5px;
+}
+
+.contactus{
+
+}
+
+.contactus li{
+    display:inline-block;
+}
+.label_myStyle_warning {
+    border: 1px solid #000;
+    display: inline-block;
+    max-width: 300%;
+    font-weight: bold;
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 150%;
+    font-weight: bold;
+    line-height: 2;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+    background-color: #f0ad4e;
+}
+
+.label_myStyle_danger {
+    border: 1px solid #000;
+    display: inline-block;
+    max-width: 300%;
+    font-weight: bold;
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 150%;
+    font-weight: bold;
+    line-height: 2;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+    background-color: #d9534f;
+}
+
+.label_myStyle_primary {
+    border: 1px solid #000;
+    display: inline-block;
+    max-width: 300%;
+    font-weight: bold;
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 150%;
+    font-weight: bold;
+    line-height: 2;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+    background-color: #337ab7;
+}
+
+.label_myStyle_info {
+    border: 1px solid #000;
+    display: inline-block;
+    max-width: 300%;
+    font-weight: bold;
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 150%;
+    font-weight: bold;
+    line-height: 2;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+    background-color: #5bc0de;
+}
+
+@media (min-width: 768px) {
+    #page-wrapper {
+        margin: 0 0 0 260px;
+        padding: 15px 30px;
+        min-height: 600px;
+
+    }
+
+    .navbar-side {
+        z-index: 1;
+        position: absolute;
+        width: 260px;
+    }
+
+    .navbar {
+        border-radius: 0px;
+    }
+
+    .navbar {
+        height: 70px;
+    }
+
+    .tales {
+        width: 100%;
+    }
+    .carousel-inner{
+        width:100%;
+        height: 500px;
+    }
+    .carousel-inner img{
+        height: 100%;
+        width:100%;
+    }
+
+}
+
+@media (max-width: 768px) {
+    #myNavbar {
+        min-height: 500px !important;
+    }
+
+    .navbar-inverse .navbar-nav > li, .navbar-inverse .navbar-brand, .navbar-nav > li {
+        color: white;
+        max-height: 70px;
+    }
+
+    .ads{
+        display: none;
+    }
+
+    .tales {
+        width: 100%;
+    }
+    .carousel-inner{
+        width:100%;
+        height: 200px;
+    }
+    .carousel-inner img{
+        height: 100%;
+        width:100%;
+    }
+
+}
+
+
+@-webkit-keyframes sk-circleFadeDelay {
+    0%, 39%, 100% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 1;
+    }
+}
+
+@keyframes sk-circleFadeDelay {
+    0%, 39%, 100% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 1;
+    }
+}
